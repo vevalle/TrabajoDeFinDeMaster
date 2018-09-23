@@ -1,0 +1,4 @@
+Longitude,Latitude,Accident_Severity,Date,Day_of_Week,Time,Light_Conditions,Weather_Conditions,Road_Surface_Conditions,Carriageway_Hazards,Urban_or_Rural_Area
+-5.184439,57.91539,2,12/05/2016,5,13:52,1,1,1,0,2
+-5.184599,57.913768,2,12/08/2016,6,21:10,6,5,2,0,2
+-5.162821,57.895806,3,01/09/2016,5,18:30,1,1,1,0,2

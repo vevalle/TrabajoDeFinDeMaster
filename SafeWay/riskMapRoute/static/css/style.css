@@ -1,0 +1,234 @@
+body{
+	background-color: #FAF9F9;
+}
+
+.container {
+	width: 100%; 
+}
+
+.logo{
+	padding-top:15px;
+	padding-top:7px;
+}
+
+.infoPanel{
+	background-color: #FAF9F9;
+	height: auto;
+	padding:0px;
+}
+
+#panel-changes{
+	max-height:90vh;
+	overflow-y:auto;
+	overflow-x:none
+}
+
+.icons{
+	font-size:30px;
+}
+
+.icons_2{
+	font-size:20px;
+}
+
+
+.wi, .fa, .glyphicon-calendar, .glyphicon-map-marker {
+	cursor: pointer;
+}
+
+#map {
+	border-left: 4px solid #848484;
+	height: 100vh;
+	width: 75%;
+}
+	
+@media (max-width: 992px) {
+	#map {
+		width: 100%;
+	}
+}
+
+form {
+	padding-top: 20px;
+}
+
+#loader, #success, #partition, #Graficos, #Error, #SaveConfig{
+	padding: 20px;
+	text-align: center; 
+	display: none;
+}
+
+.alert-link {
+	font-size: 14px;
+}
+
+#alternativeRoutes{
+	display: none;
+}
+
+#loader h4,  #success h4, #partition h4, #configure h4{
+	color: #045FB4; 
+}
+
+#loader p, #success p, #partition  p, #configure p{
+	color: #000000;
+}
+
+#partition button{
+	margin-top: 12px;
+	padding: 5px;
+}
+
+.navbar-default{
+	background-color: #1480AD;
+	margin: 0px;
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.dropdown-menu>li>a {
+	font-size: 12px;
+}
+
+.formulario, .buttons {
+	padding: 10px;
+}
+
+.form-group>label{
+	color: #1480AD;
+}
+
+/* PANEL DE CONFIGURACIÓN USUARIO */ 
+
+#configure{
+	padding-right: 30px;
+    padding-left: 30px;
+	padding-top:20px;
+	display: none;
+}
+
+.form-config{
+	margin-bottom:15px;
+}
+
+.form-config>label{
+	color: #1480AD;
+	margin-bottom:0px;
+}
+
+.form-config>p {
+	font-size:13px;
+	margin-bottom:8px;
+	margin-top:8px;
+}
+
+.little{
+	font-size:13px;
+}
+
+/* Slider */
+
+.slider {
+    -webkit-appearance: none;
+    height: 8px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: #1480AD;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1480AD;
+    cursor: pointer;
+}
+
+#panel-changes {
+    margin-right: 0px;
+    margin-left: 0px;
+	size:auto;
+}
+
+#cards-date{
+	text-align:center;
+	color: #1480AD;
+	font-weight: bold;
+	padding: 0px;
+	padding-bottom:5px;
+}
+
+.panel-default{
+	border-radius: 0px; 
+	margin-bottom:0px;
+}
+
+#alternativeRoutes{
+	position: absolute; 
+	position: absolute;
+	top: 10px;
+	left: 350px;
+}
+
+.panel-body{
+	padding: 2px;
+	padding-top:8px; 
+	padding-bottom:8px;
+}
+
+.center{
+	text-align: center;
+}
+
+#leyenda{
+	background-color: #fff;
+    border: 1px solid #BBBBBB;
+	padding-top: 2px;
+	margin-bottom: 8px;
+}
+
+.leyenda_dist{
+	padding-top: 12px; 
+}
+
+#btn-leyenda{
+	margin-top:5px;
+}
+
+.womargin{
+	margin:0px;
+	margin-top: 10px;
+	padding:0px;
+}
+
+.btn-yelllow{
+	background-color: #FFFC8B;
+}
+
+.highcharts-title{
+  font-size: 13px !important;
+  font-weight: bold;
+}
+
+.highcharts-axis-labels text{
+	font-size: 11px !important;
+}
+
+.btn-form, .link{
+	cursor: pointer;
+}
